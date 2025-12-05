@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRÉSTIS • Microfinanzas Europea</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="pretis-favicon.png">
+
+  <style>
+    body {
+      margin: 0; padding: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f6f7f9;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    /* HEADER */
+    header {
+      background: #002B5B;
+      color: white;
+      padding: 25px 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      justify-content: center;
+      border-bottom: 4px solid #C9A448;
+    }
+    header img {
+      height: 75px;
+      width: auto;
+      border-radius: 6px;
+      background: white;
+      padding: 5px;
+    }
+
+    nav {
+      background: white;
+      padding: 18px 10px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav a {
+      margin: 0 25px;
+      color: #002B5B;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    nav a:hover { text-decoration: underline; }
+
+    /* HERO */
+    .hero {
+      padding: 70px 20px;
+      text-align: center;
+      background: #e0e6ef;
+    }
+    .hero h1 {
+      font-size: 36px;
+      color: #002B5B;
+      font-weight: 800;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 18px;
+      max-width: 780px;
+      margin: auto;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 28px;
+      background: #002B5B;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 17px;
+    }
+
+    /* SECTIONS */
+    .section {
+      padding: 70px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 45px;
+      color: #002B5B;
+      font-weight: 700;
+    }
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 10px;
+      border: 1px solid #dcdcdc;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 25px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 14px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-top: 7px;
+      margin-bottom: 18px;
+      font-size: 15px;
+      background: #fafafa;
+    }
+
+    button {
+      padding: 14px 25px;
+      background: #002B5B;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #002B5B;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <img src="pretis-logo.png" alt="Logo PRÉSTIS">
+    <h1>PRÉSTIS • Microfinanzas Europea</h1>
+  </header>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#accueil">Inicio</a>
+    <a href="#services">Servicios</a>
+    <a href="#modalites">Modalidades</a>
+    <a href="#demande">Solicitud</a>
+    <a href="#mentions">Aviso legal</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="accueil">
+    <h1>Soluciones de financiamiento confiables y accesibles</h1>
+    <p>PRÉSTIS acompaña a particulares y profesionales con soluciones financieras conformes a las normas europeas, dentro de un marco legal, seguro y transparente.</p>
+    <a class="btn" href="#demande">Realizar una solicitud de préstamo</a>
+  </section>
+
+  <!-- POURQUOI NOUS CHOISIR -->
+  <section class="section">
+    <h2>¿Por qué elegir PRÉSTIS?</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>✔ Conformidad Europea</h3>
+        <p>Todas nuestras operaciones están regidas por las directivas financieras de la Unión Europea respecto al crédito al consumo y la transparencia bancaria.</p>
+      </div>
+      <div class="card">
+        <h3>✔ Seguridad de Datos</h3>
+        <p>Respetamos estrictamente el RGPD. Su información se procesa con total confidencialidad mediante sistemas de protección reforzados.</p>
+      </div>
+      <div class="card">
+        <h3>✔ Acompañamiento Profesional</h3>
+        <p>Cada expediente es analizado individualmente por nuestros asesores especializados, garantizando una atención seria y profesional.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <h2>Nuestros Servicios</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Préstamo Personal</h3>
+        <p>Crédito para necesidades personales: proyectos, emergencias, compras, gastos familiares. Tasas claramente definidas sin costos ocultos.</p>
+      </div>
+      <div class="card">
+        <h3>Préstamo Profesional</h3>
+        <p>Financiamiento destinado a emprendedores, autónomos y PYMES. Análisis riguroso y condiciones adaptadas.</p>
+      </div>
+      <div class="card">
+        <h3>Préstamo Inmobiliario</h3>
+        <p>Soluciones de financiamiento inmobiliario conformes a las normas europeas, con acompañamiento completo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODALITES -->
+  <section class="section" id="modalites">
+    <h2>Modalidades de Pago y Reembolso</h2>
+
+    <div class="card">
+      <h3>Modalidades</h3>
+      <p><strong>Monto mínimo:</strong> 1000 €</p>
+      <p><strong>Duración:</strong> 6 a 48 meses</p>
+      <p><strong>Tasa de interés:</strong> 1.5% a 4.2% según expediente</p>
+      <p><strong>Reembolso:</strong> Mensual, automático o manual</p>
+      <p><strong>Gastos de expediente:</strong> Según expediente</p>
+      <p><strong>Plazo de desembolso:</strong> 24 a 72h tras validación</p>
+      <p>⚠ Toda solicitud de financiamiento implica la aceptación previa de las condiciones generales y modalidades de reembolso. Ningún desembolso de fondos puede realizarse sin la validación completa del expediente y verificación de identidad.</p>
+    </div>
+  </section>
+
+  <!-- FORMULAIRE -->
+  <section class="section" id="demande">
+    <h2>Solicitud de Préstamo</h2>
+    <div class="card">
+      <form action="#" method="post">
+
+        <label>Nombre completo *</label>
+        <input type="text" required>
+
+        <label>Correo electrónico *</label>
+        <input type="email" required>
+
+        <label>Teléfono *</label>
+        <input type="tel" required>
+
+        <label>Monto deseado (€) *</label>
+        <input type="number" min="100" required>
+
+        <label>Tipo de préstamo *</label>
+        <select required>
+          <option value="">Seleccionar...</option>
+          <option>Personal</option>
+          <option>Profesional</option>
+          <option>Inmobiliario</option>
+        </select>
+
+        <label>Descripción del proyecto</label>
+        <textarea rows="4"></textarea>
+
+        <label><input type="checkbox" required> Acepto el aviso legal</label>
+
+        <button type="submit">Enviar mi solicitud</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- MENTIONS -->
+  <section class="section" id="mentions">
+    <h2>Aviso legal</h2>
+    <div class="card">
+      <p><strong>Nombre oficial:</strong> PRÉSTIS — Microfinanzas Europea</p>
+      <p><strong>Correo electrónico:</strong> info@pretis.com</p>
+
+      <p><strong>Datos personales:</strong> La información recopilada se utiliza únicamente para el estudio de su solicitud. Ningún dato es compartido.</p>
+
+      <p><strong>Responsabilidad:</strong> Toda solicitud está sujeta a verificación de identidad y análisis de solvencia, conforme a las directivas europeas.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 PRÉSTIS — Microfinanzas Europea • Seguridad • Conformidad
+  </footer>
+
+  <!-- SCRIPT WHATSAPP -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.querySelector('#demande form');
+
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        // Récupération des valeurs
+        const name = form.querySelector('input[type="text"]').value.trim();
+        const email = form.querySelector('input[type="email"]').value.trim();
+        const phone = form.querySelector('input[type="tel"]').value.trim();
+        const amount = form.querySelector('input[type="number"]').value.trim();
+        const loanType = form.querySelector('select').value;
+        const project = form.querySelector('textarea').value.trim();
+        const termsChecked = form.querySelector('input[type="checkbox"]').checked;
+
+        // Vérification des champs obligatoires
+        if (!name || !email || !phone || !amount || !loanType || !termsChecked) {
+          alert('Por favor complete todos los campos obligatorios y acepte el aviso legal.');
+          return false;
+        }
+
+        // Numéro WhatsApp destinataire
+        const whatsappNumber = "2290162743887";
+
+        // Construction du message WhatsApp
+        const message = 
+          "📌 *Nouvelle demande de prêt PRÊTIS*%0A%0A" +
+          "*Nombre completo:* " + encodeURIComponent(name) + "%0A" +
+          "*Correo electrónico:* " + encodeURIComponent(email) + "%0A" +
+          "*Teléfono:* " + encodeURIComponent(phone) + "%0A" +
+          "*Monto deseado:* " + encodeURIComponent(amount + " €") + "%0A" +
+          "*Tipo de préstamo:* " + encodeURIComponent(loanType) + "%0A" +
+          "*Descripción del proyecto:* " + encodeURIComponent(project);
+
+        // Ouverture de WhatsApp
+        const url = "https://wa.me/" + whatsappNumber + "?text=" + message;
+        window.open(url, "_blank");
+
+        // Réinitialisation du formulaire
+        form.reset();
+      });
+    });
+  </script>
+
+</body>
+</html>

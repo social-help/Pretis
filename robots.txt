@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://social-help.github.io/Pretis/sitemap.xml
